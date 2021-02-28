@@ -37,7 +37,7 @@ class Course():
         if grade is not None:
             self.grade = grade
 
-def random_student():
+def create_student():
     names = ['Mark Agaard', 'Cecilie Nielsen', 'Albert Ilga' , 'Freja Lodbo' 'Daniel San', 'Mikkel Grønmark', 'Katrine Lang', 'Camilla Palsin']
     genders = ['Male', 'Female']
     grades = [-3, 0, 2, 4, 7, 10, 12]
@@ -46,3 +46,5 @@ def random_student():
     'https://i1.wp.com/www.donofweb.com/wp-content/uploads/2012/08/animepaper.netavatar-standard-artists-kurehito-misaki-halloween-cant-be-this-cute-188406-yamaro-preview-87bc4fac.jpg',
     'https://www.seekpng.com/png/detail/506-5061704_avatar-png.png',
     'https://pbs.twimg.com/profile_images/1786517293/faceyourmanga-female-avatar.jpg']
+
+    
